@@ -15,7 +15,7 @@ export default function Category({ products }: CategoryProps) {
 
   if (router.isFallback) {
     return (
-      <p>Carregando ...</p>
+      <p>Loading ...</p>
     )
   }
 
