@@ -16,7 +16,7 @@ export default function Category({ products, category }: CategoryProps) {
 
   if (router.isFallback) {
     return (
-      <p>Loading ...</p>
+      <p>Carregando ...</p>
     )
   }
 
@@ -78,4 +78,3 @@ export const getStaticProps: GetStaticProps<CategoryProps> = async (context) => 
     revalidate: 60,
   }
 };
-
